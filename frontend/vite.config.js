@@ -8,7 +8,7 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
-        manifest: {
+      manifest: {
         name: 'Cooky',
         short_name: 'Cooky',
         description: 'Tu asistente de cocina inteligente',
