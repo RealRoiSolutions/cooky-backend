@@ -20,13 +20,13 @@ export default defineConfig({
           {
             src: '/pwa_icon_192.png',
             sizes: '192x192',
-            type: 'image/png',
+            type: 'image/jpeg',
             purpose: 'any maskable'
           },
           {
             src: '/pwa_icon_512.png',
             sizes: '512x512',
-            type: 'image/png',
+            type: 'image/jpeg',
             purpose: 'any maskable'
           }
         ]
