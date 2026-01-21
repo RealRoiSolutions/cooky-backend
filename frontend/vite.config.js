@@ -8,8 +8,8 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
-      manifest: {
-        name: 'Cooky Recetas',
+        manifest: {
+        name: 'Cooky',
         short_name: 'Cooky',
         description: 'Tu asistente de cocina inteligente',
         theme_color: '#ffffff',
@@ -20,12 +20,14 @@ export default defineConfig({
           {
             src: '/pwa_icon_192.png',
             sizes: '192x192',
-            type: 'image/png'
+            type: 'image/png',
+            purpose: 'any maskable'
           },
           {
             src: '/pwa_icon_512.png',
             sizes: '512x512',
-            type: 'image/png'
+            type: 'image/png',
+            purpose: 'any maskable'
           }
         ]
       }
