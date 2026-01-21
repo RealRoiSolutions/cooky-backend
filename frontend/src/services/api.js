@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://127.0.0.1:8000', // Backend URL
+    // Usa la variable de entorno VITE_API_URL (para Render) o localhost (para desarrollo)
+    baseURL: import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000', 
     headers: {
         'Content-Type': 'application/json',
     },
