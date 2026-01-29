@@ -17,25 +17,25 @@ export default defineConfig({
         background_color: '#ffffff',
         icons: [
           {
-            src: '/Logo-Modelo-192.jpg',
+            src: '/pwa_icon_192.jpg',
             sizes: '192x192',
             type: 'image/jpeg',
             purpose: 'any'
           },
           {
-            src: '/Logo-Modelo-192.jpg',
+            src: '/pwa_icon_192.jpg',
             sizes: '192x192',
             type: 'image/jpeg',
             purpose: 'maskable'
           },
           {
-            src: '/Logo-Modelo-512.jpg',
+            src: '/pwa_icon_512.jpg',
             sizes: '512x512',
             type: 'image/jpeg',
             purpose: 'any'
           },
           {
-            src: '/Logo-Modelo-512.jpg',
+            src: '/pwa_icon_512.jpg',
             sizes: '512x512',
             type: 'image/jpeg',
             purpose: 'maskable'
